@@ -2,9 +2,9 @@
 
 DEFINE('ROOT' ,dirname(__FILE__) ); // Root directory of site
 
-DEFINE('URLFORREPO', 'https://github.com/CommonAccord/Cmacc-Org');	// The repo home
+DEFINE('URLFORREPO', 'https://github.com/OpenTrustFabric/OTF-Prose-Objects');	// The repo home
 
-DEFINE('LANDING_MD', 'S/About/Landing3.md');	// The website home moved because some bot keeps overwriting Landing.md
+DEFINE('LANDING_MD', 'OTF/org/Landing.md');	// The website home moved because some bot keeps overwriting Landing.md
 
 DEFINE('SOURCE_TAB_MESSAGE', 'Source');	// Tab
 
