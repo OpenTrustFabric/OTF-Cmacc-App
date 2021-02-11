@@ -23,8 +23,10 @@ if(! ($dir == './')) {
         echo "<a href=index.php?action=list&file=>Docs</a>/";
         echo "<a href=$_SERVER[PHP_SELF]?action=list&file=".$rootdir['dirname']."/>" . $docpath."</a>/".$rootdir['filename']."</h3><br>";
 
-echo "<center><a href=" . URLFORREPO . ">Github</a> &emsp;</div>";
+        if (strlen($dir) > 4){
 
+echo "<center><a href=" . URLFORREPO . "/blob/main/". substr($dir,3).">Github</a> &emsp;</div>";
+        }
 } 
 
 $files = scandir($path.$dir);

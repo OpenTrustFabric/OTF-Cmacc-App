@@ -32,7 +32,7 @@ echo "<a href=index.php?action=missing&file=$dir>". "OpenParameters" ."</a> ";
 
 echo "&emsp; On GitHub: ";
 
-echo "<a href=" . URLFORREPO.">File</a> ";
+echo "<a href=" . URLFORREPO. "/blob/main/". substr($dir,3).">File</a> ";
 
 # echo "<a href=" . URLFORREPO . "/search?utf8=✓&q=" . $dir . ">~PageRank </a>  &emsp; ";
 
