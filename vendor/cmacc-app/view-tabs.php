@@ -30,9 +30,9 @@ echo "<a href=index.php?action=missing&file=$dir>". "OpenParameters" ."</a> ";
 
 # echo "<a href=index.php?action=kvs&file=$dir> KVs</a> ";
 
-echo "&emsp; On GitHub: ";
+# echo "&emsp; On GitHub: ";
 
-echo "<a href=" . URLFORREPO. "/blob/main/". substr($dir,3).">File</a> ";
+echo "&emsp; &emsp; See the original on <a href=" . URLFORREPO. "/blob/main/". substr($dir,3).">GitHub</a> ";
 
 # echo "<a href=" . URLFORREPO . "/search?utf8=✓&q=" . $dir . ">~PageRank </a>  &emsp; ";
 
